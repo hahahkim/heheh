@@ -16,5 +16,10 @@ describe Fib do
 	it 'should return 3 with argument 4' do
 		@fib.get(4).should == 3
 	end
+	it 'should raise RuntimeError with argument 0' do
+			  lambda do
+						 @fib.get(0)
+			  end.should raise_error RuntimeError
+	end
 end
 
