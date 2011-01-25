@@ -13,5 +13,8 @@ describe Fib do
 	it 'should return 2 with argument 3' do
 		@fib.get(3).should == 2
 	end
+	it 'should return 3 with argument 4' do
+		@fib.get(4).should == 3
+	end
 end
 
