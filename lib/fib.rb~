@@ -1,5 +1,9 @@
 class Fib
 	def get n
-		
+		if n==1 or n==2
+			1
+		else
+			get(n-1)+get(n-2)
+		end
 	end
 end
