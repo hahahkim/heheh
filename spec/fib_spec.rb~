@@ -1,6 +1,8 @@
 require 'fib'
 
 describe Fib do
-
+	it 'should return 1 withe argument 1' do
+		fib = Fib.new
+	end
 end
 

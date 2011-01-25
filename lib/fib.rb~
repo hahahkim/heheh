@@ -1,0 +1,5 @@
+class Fib
+	def get n
+		
+	end
+end
